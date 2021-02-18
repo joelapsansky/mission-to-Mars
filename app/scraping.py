@@ -23,10 +23,6 @@ def scrape_all():
     browser.quit()
     return data
 
-# Set the executable path and initialize the chrome browser in splinter
-executable_path = {'executable_path': 'chromedriver'}
-browser = Browser('chrome', **executable_path)
-
 def mars_news(browser):
 
     # Scrape Mars News
