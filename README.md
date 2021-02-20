@@ -43,10 +43,16 @@ for i in items:
     
     except Exception as e:
         print(e)
-```  
-  
-It loops through all of the a tags, extracts the title and partial url, adds the partial url to the base url, and then adds all items to a list of dictionaries.  The loop continues until all of the title and images are retrieved.  
+```    
+    
+It loops through all of the ‘a’ tags, extracts the title and partial URL, adds the partial URL to the base URL, and then adds all items to a list of dictionaries. The loop continues until all of the titles and images are retrieved.  
   
 This is then added as a function in the scraping.py file.  
   
-The app.py file then uses flask to set up a mongo connection, renders a template, and uses the scraping file to set up our website.  Finally, in the index.html file, we add what we would like to see from the database.  The HTML doesn't hold variables, but we substitute the information into the code, which the index file pulls from the server.
+The app.py file later uses Flask to make a mongo connection, render a template, and use the scraping file to populate our website. Finally, in the index.html file, we add what we would like to see from the database. The HTML doesn't hold variables, but we substitute the information into the code, which the index file pulls from the server.  
+  
+After adding a few bootstrap components to the index.html file, I was left with a nice, mobile-friendly, website that looks something like this:  
+    
+  
+[Website Screenshot](/website_screenshot.png)!
+  
