@@ -54,5 +54,5 @@ The app.py file later uses Flask to make a mongo connection, render a template, 
 After adding a few bootstrap components to the index.html file, I was left with a nice, mobile-friendly, website that looks something like this:  
     
   
-[Website Screenshot](/website_screenshot.png)!
+![Website Screenshot](/website_screenshot.png "Website Screenshot")
   
