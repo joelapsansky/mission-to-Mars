@@ -1,17 +1,17 @@
 # Mission to Mars
   
-[Mission to Mars Challenge](/Mission_to_mars_Challenge.ipynb)  
+[Mission to Mars Challenge](/Mission_to_Mars_Challenge.ipynb)  
   
 ## Overview of Project  
 *Scrape Mars images and titles from a website  
-*Write a web app that will display an update button  
+*Write a web app that will display an update button meant to trigger our scrape code  
 *Add bootstrap components to index.html file  
   
 ### Scraping and App files
 [Mission to Mars Challenge](/app/app.py)    
 [Mission to Mars Challenge](/app/scraping.py)    
   
-    
+  
 This code does the scraping:  
 ```
 # Create a list to hold the images and titles
