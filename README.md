@@ -7,9 +7,9 @@
 *Write a web app that will display an update button meant to trigger our scrape code  
 *Add bootstrap components to index.html file  
   
-### Scraping and App files
-[Mission to Mars Challenge](/app/app.py)    
-[Mission to Mars Challenge](/app/scraping.py)    
+### App and Scraping files
+[App.py](/app/app.py)    
+[Scraping.py](/app/scraping.py)    
   
   
 This code does the scraping:  
