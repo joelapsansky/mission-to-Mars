@@ -3,9 +3,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Ignore repo files
-index.html
-
 # C extensions
 *.so
 
